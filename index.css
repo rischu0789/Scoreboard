@@ -9,6 +9,8 @@ header {
 }
 
 .Container {
+    margin:auto;
+    width:80%;
     display: flex;
     justify-content: space-around;
     background-color: #1B244A;
