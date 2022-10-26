@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header id='winnerDisplay'></header>
+        <div class="Container">
+            <div> <!--HOME-->
+                <h3 class="label">HOME</h3>
+                <div class='scoreDisplay'><h5 id='meDisplay'>0</h5></div>
+                <div class="btns">
+                    <button class="btns" id='me1' onclick="me1()">+1</button>
+                    <button class="btns" id='me2' onclick="me2()">+2</button>
+                    <button class="btns" id='me3' onclick="me3()">+3</button>
+                </div>
+            </div> <!--/ HOME-->
+            
+            <!--TIMER-->
+                <div>
+                    <button id="start">Start Game</button>
+                    <button id="pause">Pause Game</button>
+                    <button id="reset">Reset</button>
+                    <p id= "time">00:00:00</p>
+               </div><!--/TIMER-->
+                
+    
+            <div><!--GUEST-->
+                <h3 class="label">GUEST</h3>
+                <div class='scoreDisplay'><h5 id='guestDisplay'>0</h5></div>
+                    <button class="btns" id='guestBtn' onclick="guest1()">+1</button>
+                    <button class="btns" id='guestBtn' onclick="guest2()">+2</button>
+                    <button class="btns" id='guestBtn' onclick="guest3()">+3</button>
+                
+            </div><!--/GUEST-->
+        </div><!--/CONTAINER-->
+        
+       
+       
+        <script src="index.js"></script>
+    </body>
+</html>
